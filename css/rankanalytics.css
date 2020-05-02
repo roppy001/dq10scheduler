@@ -1,0 +1,24 @@
+
+.ra-title {
+ font-size: 180%;
+}
+
+.ra-timestamp {
+ font-size: 120%;
+}
+
+.ra-db-gold {
+ font-size: 150%;
+ color:gold;
+}
+
+.ra-db-silver {
+ font-size: 150%;
+ color:silver;
+}
+
+.ra-db-bronze {
+ font-size: 150%;
+ color:olive;
+}
+
