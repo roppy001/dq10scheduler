@@ -139,9 +139,9 @@ function initDaily() {
       center: '',
       right: 'filterButton prev,next'
     },
-    height: window.innerHeight - 120,
+    height: window.innerHeight-80,
     windowResize: function () {
-      $('#calendar').fullCalendar('option', 'height', window.innerHeight - 120);
+      $('#calendar').fullCalendar('option', 'height', window.innerHeight-80);
     }
   })
 }
