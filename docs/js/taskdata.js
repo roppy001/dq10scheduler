@@ -38,6 +38,7 @@ var taskInfoArray = [
  { key : "ddms", title : "同盟 災厄の王", description : "毎日6時更新", displayType :  3, intervalType : "d", intervalValue : [ { endHour :  6}]  },
  { key : "ddmd", title : "同盟 ダークドレアム", description : "毎日6時更新", displayType :  3, intervalType : "d", intervalValue : [ { endHour :  6}]  },
  { key : "ddmn", title : "同盟 ナスビス", description : "毎日6時更新", displayType :  3, intervalType : "d", intervalValue : [ { endHour :  6}]  },
+ { key : "e053main", title : "メインストーリー", description : "5.3新コンテンツ", displayType :  0, intervalType : "e", intervalValue : [ { endDate : "2020/09/16 11:00:00", valid : false}, { endDate : "2050/01/01 00:00:00", valid : true},]  },
  { key : "e053sub", title : "サブクエスト追加", description : "5.3新コンテンツ", displayType :  0, intervalType : "e", intervalValue : [ { endDate : "2020/09/16 11:00:00", valid : false}, { endDate : "2050/01/01 00:00:00", valid : true},]  },
  { key : "e053levr", title : "レベル上限116開放", description : "5.3新コンテンツ", displayType :  0, intervalType : "e", intervalValue : [ { endDate : "2020/09/16 11:00:00", valid : false}, { endDate : "2050/01/01 00:00:00", valid : true},]  },
  { key : "e053levc", title : "全職レベル116", description : "5.3新コンテンツ", displayType :  0, intervalType : "e", intervalValue : [ { endDate : "2020/09/16 11:00:00", valid : false}, { endDate : "2050/01/01 00:00:00", valid : true},]  },
