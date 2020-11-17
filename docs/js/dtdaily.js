@@ -32,10 +32,10 @@ function initDaily() {
     var reroLevel = ((dailyDiff + 1) % 3) + 1;
     var scoLevel = (dailyDiff % 3) + 1;
     var jeruLevel = ((dailyDiff + 2) % 3) + 1;
-    var garuLevel = ((dailyDiff + 2) % 3) + 1;
+//    var garuLevel = ((dailyDiff + 2) % 3) + 1;
 
     darkEventArray.push({
-      title: "聖守護者 スコルパイド Lv" + scoLevel + "、レギルラッゾLv" + reroLevel + "、ジェルザークLv" + jeruLevel + "、ガルドドンLv" + garuLevel,
+      title: "聖守護者 スコルパイド／デルメゼ Lv" + scoLevel + "、レギロLv" + reroLevel + "、ジェル／ガルドドンLv" + jeruLevel,
       start: targetDate,
       allDay: true,
       color: i == 0 ? '#FA8072' : '#87CEFA',
