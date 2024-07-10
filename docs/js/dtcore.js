@@ -100,6 +100,30 @@ var SEAL_DATA = [
   { title: 'ペンシル', index: 86, page: 2, rarity: 0 },
   { title: 'クリーム、ハラヘリ、スイカ', index: 92, page: 2, rarity: 1 },
 
+  { title: '調査中1', index: 1, page: 3, rarity: 2 },
+  { title: '調査中2', index: 10, page: 3, rarity: 0 },
+  { title: '調査中3', index: 13, page: 3, rarity: 1 },
+  { title: '調査中4', index: 20, page: 3, rarity: 2 },
+  { title: '調査中5', index: 23, page: 3, rarity: 1 },
+  { title: '調査中6', index: 27, page: 3, rarity: 0 },
+  { title: '調査中7', index: 29, page: 3, rarity: 1 },
+  { title: '調査中8', index: 32, page: 3, rarity: 1 },
+  { title: '調査中9', index: 34, page: 3, rarity: 0 },
+  { title: '調査中10 S確', index: 39, page: 3, rarity: 2 },
+  { title: '調査中11 S確', index: 42, page: 3, rarity: 2 },
+  { title: '調査中12 A確', index: 44, page: 3, rarity: 1 },
+  { title: '調査中13', index: 49, page: 3, rarity: 0 },
+  { title: '調査中14', index: 51, page: 3, rarity: 1 },
+  { title: '調査中15', index: 54, page: 3, rarity: 1 },
+  { title: '調査中16', index: 56, page: 3, rarity: 1 },
+  { title: '調査中17 A確', index: 58, page: 3, rarity: 1 },
+  { title: '調査中18', index: 63, page: 3, rarity: 2 },
+  { title: '調査中19', index: 65, page: 3, rarity: 1 },
+  { title: '調査中20', index: 71, page: 3, rarity: 2 },
+  { title: '調査中21', index: 76, page: 3, rarity: 1 },
+  { title: '調査中22', index: 81, page: 3, rarity: 1 },
+  { title: '調査中23', index: 86, page: 3, rarity: 0 },
+  { title: '調査中24', index: 92, page: 3, rarity: 1 },
 
 
 ]
@@ -116,9 +140,10 @@ var lastModifiedTimeArray;
 var dailyConfig = {
   dark: true,
   df: true,
-  seal0: true,
-  seal1: true,
-  seal2: true,
+  seal0: false,
+  seal1: false,
+  seal2: false,
+  seal3: true,
   month: true,
   wander: false
 }

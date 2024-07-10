@@ -139,24 +139,27 @@ function initDaily() {
 }
 
 function applyChecked() {
-  $('#checkboxDark').prop('checked', dailyConfig.dark);
-  $('#checkboxDf').prop('checked', dailyConfig.df);
+//  $('#checkboxDark').prop('checked', dailyConfig.dark);
+//  $('#checkboxDf').prop('checked', dailyConfig.df);
   $('#checkboxSeal0').prop('checked', dailyConfig.seal0);
   $('#checkboxSeal1').prop('checked', dailyConfig.seal1);
   $('#checkboxSeal2').prop('checked', dailyConfig.seal2);
+  $('#checkboxSeal3').prop('checked', dailyConfig.seal3);
 }
 
 function fetchChecked() {
-  dailyConfig.dark = $('#checkboxDark').prop('checked');
-  dailyConfig.df = $('#checkboxDf').prop('checked');
+//  dailyConfig.dark = $('#checkboxDark').prop('checked');
+//  dailyConfig.df = $('#checkboxDf').prop('checked');
   dailyConfig.seal0 = $('#checkboxSeal0').prop('checked');
   dailyConfig.seal1 = $('#checkboxSeal1').prop('checked');
   dailyConfig.seal2 = $('#checkboxSeal2').prop('checked');
+  dailyConfig.seal3 = $('#checkboxSeal3').prop('checked');
 }
 
 function getEventArray() {
   var eventArray = [];
 
+  /*
   if (dailyConfig.dark == true) {
     eventArray = eventArray.concat(darkEventArray);
   }
@@ -164,6 +167,7 @@ function getEventArray() {
   if (dailyConfig.df == true) {
     eventArray = eventArray.concat(dfEventArray);
   }
+*/
 
   if (dailyConfig.seal0 == true) {
     eventArray = eventArray.concat(sealEventArray.filter(function (v) { return v.page == 0; }));
@@ -173,6 +177,9 @@ function getEventArray() {
   }
   if (dailyConfig.seal2 == true) {
     eventArray = eventArray.concat(sealEventArray.filter(function (v) { return v.page == 2; }));
+  }
+  if (dailyConfig.seal3 == true) {
+    eventArray = eventArray.concat(sealEventArray.filter(function (v) { return v.page == 3; }));
   }
 
   return eventArray;
@@ -186,7 +193,7 @@ function updateView() {
     previousDate = currentDate;
   }
 
-  setTimeout(updateView, 60 * 1000);
+//  setTimeout(updateView, 60 * 1000);
 }
 
 $(function () {
