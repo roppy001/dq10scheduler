@@ -120,8 +120,8 @@ var SEAL_DATA = [
   { title: '調査中18 タコ、ホラー', index: 63, page: 3, rarity: 2 },
   { title: '調査中19 もも、ちゃがま', index: 65, page: 3, rarity: 1 },
   { title: '調査中20 タコ、テラシ', index: 71, page: 3, rarity: 0 },
-  { title: '調査中21 つっぱり', index: 76, page: 3, rarity: 0 },
-  { title: '調査中22 タコ', index: 81, page: 3, rarity: 0 },
+  { title: '調査中21 つっぱり、ヤドカシ', index: 76, page: 3, rarity: 0 },
+  { title: '調査中22 タコ、ちゃがま', index: 81, page: 3, rarity: 0 },
   { title: '調査中23 もも', index: 86, page: 3, rarity: 0 },
   { title: '調査中24 つっぱり', index: 92, page: 3, rarity: 0 },
 
