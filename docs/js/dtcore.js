@@ -117,7 +117,7 @@ var SEAL_DATA = [
   { title: 'もも、テラシ、ヤドカシ、ホラー', index: 54, page: 3, rarity: 2 },
   { title: 'タコ', index: 56, page: 3, rarity: 0 },
   { title: 'もも、ちゃがま', index: 58, page: 3, rarity: 1 },
-  { title: '調査中18 タコ、ホラー', index: 63, page: 3, rarity: 2 },
+  { title: 'タコ、ヤドカシ、ホラー', index: 63, page: 3, rarity: 2 },
   { title: 'もも、ちゃがま', index: 65, page: 3, rarity: 1 },
   { title: 'タコ、テラシ', index: 71, page: 3, rarity: 0 },
   { title: 'トラ、つっぱり、ヤドカシ', index: 76, page: 3, rarity: 1 },
