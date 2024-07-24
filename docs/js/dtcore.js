@@ -102,7 +102,7 @@ var SEAL_DATA = [
 
   { title: '調査中1 もも、ちゃがま', index: 1, page: 3, rarity: 1 },
   { title: 'トラ、テラシ、ホラー', index: 10, page: 3, rarity: 2 },
-  { title: '調査中3 つっぱり、ヤドカシ', index: 13, page: 3, rarity: 1 },
+  { title: 'もも、つっぱり、ヤドカシ', index: 13, page: 3, rarity: 1 },
   { title: 'トラ、ちゃがま', index: 20, page: 3, rarity: 1 },
   { title: 'テラシ、ヤドカシ、ホラー', index: 23, page: 3, rarity: 2 },
   { title: 'トラ、ちゃがま', index: 27, page: 3, rarity: 1 },
