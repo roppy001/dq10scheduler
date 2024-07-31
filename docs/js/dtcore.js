@@ -100,11 +100,11 @@ var SEAL_DATA = [
   { title: 'ペンシル', index: 86, page: 2, rarity: 0 },
   { title: 'クリーム、ハラヘリ、スイカ', index: 92, page: 2, rarity: 1 },
 
-  { title: '調査中1 もも、ちゃがま', index: 1, page: 3, rarity: 1 },
+  { title: 'もも、ちゃがま', index: 1, page: 3, rarity: 1 },
   { title: 'トラ、テラシ、ホラー', index: 10, page: 3, rarity: 2 },
   { title: 'もも、つっぱり、ヤドカシ', index: 13, page: 3, rarity: 1 },
   { title: 'トラ、ちゃがま', index: 20, page: 3, rarity: 1 },
-  { title: 'テラシ、ヤドカシ、ホラー', index: 23, page: 3, rarity: 2 },
+  { title: 'タコ？、テラシ、ヤドカシ、ホラー', index: 23, page: 3, rarity: 2 },
   { title: 'トラ、ちゃがま', index: 27, page: 3, rarity: 1 },
   { title: 'タコ、ヤドカシ', index: 29, page: 3, rarity: 1 },
   { title: 'もも、つっぱり、ちゃがま', index: 32, page: 3, rarity: 1 },
