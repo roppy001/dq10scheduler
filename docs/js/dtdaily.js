@@ -76,7 +76,7 @@ function initDaily() {
 
   var endDate = new Date(currentDate.getFullYear(),
     currentDate.getMonth(),
-    currentDate.getDate() + 7,
+    currentDate.getDate() + SEAL_DATE_SPAN,
     currentDate.getHours());
 
   while (tempDate.getTime() < endDate.getTime()) {

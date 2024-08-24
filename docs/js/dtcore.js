@@ -16,6 +16,11 @@ var BASE_DATE = new Date("2019/01/01 06:00:00");
 var SEAL_BASE_DATE = new Date("2019/01/02 01:30:00");
 
 /**
+ * タスクを追加する期間を指定
+ */
+var SEAL_DATE_SPAN = 31
+
+/**
  * 2019/1/1 火曜日 6時を基準日とした場合の
  */
 var DEFENSE_FORCE_NAME_ARRAY = ['紫炎の鉄機兵団', '彩虹の粘塊兵団', '全兵団', '深碧の造魔兵団', '蒼怨の屍獄兵団',
